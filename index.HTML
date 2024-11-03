@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Sistem Informasi Manajemen Karyawan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+.sidebar {
+    height: 100vh;
+}
+
+.sidebar h5 {
+    font-weight: bold;
+}
+
+.card-title {
+    font-size: 1rem;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <!-- Sidebar -->
+        <div class="col-md-3 bg-light sidebar">
+            <div class="p-3">
+                <h5>Universitas Bung Karno</h5>
+                <p>Welcome, Admin</p>
+                <div class="list-group list-group-flush">
+                    <a href="index.html" class="list-group-item list-group-item-action active">Dashboard</a>
+                    <a href="karyawan.html" class="list-group-item list-group-item-action">Data Karyawan</a>
+                    <a href="jabatan.html" class="list-group-item list-group-item-action">Data Jabatan</a>
+                    <a href="divisi.html" class="list-group-item list-group-item-action">Data Divisi</a>
+                    <hr>
+                    <a href="#" class="list-group-item list-group-item-action">Absensi</a>
+                    <a href="#" class="list-group-item list-group-item-action">Izin</a>
+                    <a href="#" class="list-group-item list-group-item-action">Lembur</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="col-md-9 p-4">
+            <h2>Sistem Informasi Manajemen Karyawan</h2>
+            <p>Admin Dashboard</p>
+
+            <!-- Informasi Kartu -->
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card bg-primary text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Pegawai</h5>
+                            <p class="card-text">13</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card bg-success text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Absensi Hari Ini</h5>
+                            <p class="card-text">0</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card bg-info text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Izin Menunggu Konfirmasi</h5>
+                            <p class="card-text">2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card bg-warning text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Lembur Menunggu Konfirmasi</h5>
+                            <p class="card-text">1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
